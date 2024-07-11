@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maths Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e790f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content {
+            width: 60%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, footer {
+            width: 100%;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            width: 100%;
+            background-color: #5b027e;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .sidebar img {
+        max-width: 100%;
+        height: 35%;
+        }
+        .content {
+            text-align: justify;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        .espacio {
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Educación Web</h1>
+    </header>
+    <nav>
+        <a href="WebEducativa.html" target="_self">Inicio</a>
+        <a href="QuizTiposDiscalculia.html" target="_self">Quiz</a>
+        <a href="MercadoCompras.htm">Recursos</a>
+        <a href="Contactos.html" target="_self">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <a href="https://www.caliente.mx/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRssj9IFhQFtfxSILCStR-3ISf2JkRJUCBBpQ&s" alt="Anuncio 2">
+            </a>
+            <a href="https://www.mercadolibre.com.mx/institucional/hacemos/mercado-libre-ads" target="_blank">
+                <img src="https://espejosconcavos.com.mx/images/generales/logo-mercado.png" alt="Anuncio 2">
+            </a>
+            <a href="https://www.temu.com/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.sJHNUKT1vri7lVcbY2jAjQHaHa?w=736&h=736&rs=1&pid=ImgDetMain" alt="Anuncio 2">
+            </a>
+        </div>
+        <div class="main-content">
+            <section>
+                <div class="content">
+                    <h2>Bienvenido a nuestra página educativa</h2>
+                    <p>
+                        Nos especializamos en proporcionar apoyo a niños de nivel básico que enfrentan la discalculia, una dificultad específica en el aprendizaje de las matemáticas. La discalculia puede ocasionar que conceptos numéricos y cálculos sean particularmente desafiantes.
+                    </p>
+                    <h2>¿Qué ofrecemos?</h2>
+                    <p>
+                        <strong>Actividades Interactivas:</strong> Diseñadas para hacer que el aprendizaje de las matemáticas sea divertido y accesible. Nuestras actividades están pensadas para mejorar las habilidades numéricas a través de ejercicios prácticos y juegos educativos.
+                    </p>
+                    <p>
+                        <strong>Quiz de Evaluación:</strong> Un cuestionario inicial que nos ayuda a identificar las áreas en las que tu hijo necesita más apoyo. Basado en los resultados, podemos recomendar las actividades más adecuadas para su desarrollo.
+                    </p>
+                    <img src="Imagen_discalculia.jpg" alt="Imagen Educativa">
+                </div>
+            </section>
+            <div class="espacio"></div>
+        </div>
+        <div class="sidebar">
+            <a href="https://www.amazon.com.mx/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.gSdEWVSioUs8juONk1GEZQAAAA?w=380&h=380&rs=1&pid=ImgDetMain" alt="Anuncio 1">
+            </a>
+            <a href="https://animeflv.com/" target="_blank">
+                <img src="https://iv1.lisimg.com/image/25888249/400full-anime-flv.jpg" alt="Anuncio 1">
+            </a>
+            <a href="https://www.caliente.mx/" target="_blank">
+                <img src="https://codigosbonus.mx/wp-content/uploads/2019/09/caliente-mx-rojo.png" alt="Anuncio 2">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>Derechos de autor © 2024 Página Educativa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
